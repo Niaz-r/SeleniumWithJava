@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mytest.FirstTest">
+      <class name="com.mytest.WebElementFinding">
         <methods>
-          <include name="openGoogle"/>
-          <include name="tearDown"/>
+          <include name="locatorFinding"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.mytest.FirstTest -->
+      </class> <!-- com.mytest.WebElementFinding -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
