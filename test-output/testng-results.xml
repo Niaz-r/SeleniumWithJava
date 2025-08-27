@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T18:13:39 BDT" name="Default suite" finished-at="2025-08-27T18:13:49 BDT" duration-ms="10488">
+  <suite started-at="2025-08-27T20:09:29 BDT" name="Default suite" finished-at="2025-08-27T20:09:50 BDT" duration-ms="20954">
     <groups>
     </groups>
-    <test started-at="2025-08-27T18:13:39 BDT" name="Default test" finished-at="2025-08-27T18:13:49 BDT" duration-ms="10488">
-      <class name="com.mytest.WebElementFinding">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mytest.WebElementFinding@223d2c72]" started-at="2025-08-27T18:13:39 BDT" name="setUp" finished-at="2025-08-27T18:13:42 BDT" duration-ms="2921" status="PASS">
+    <test started-at="2025-08-27T20:09:29 BDT" name="Default test" finished-at="2025-08-27T20:09:50 BDT" duration-ms="20954">
+      <class name="com.mytest.NavigateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mytest.NavigateTest@3febb011]" started-at="2025-08-27T20:09:26 BDT" name="setUp" finished-at="2025-08-27T20:09:29 BDT" duration-ms="3160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="locatorFinding()[pri:0, instance:com.mytest.WebElementFinding@223d2c72]" started-at="2025-08-27T18:13:42 BDT" name="locatorFinding" finished-at="2025-08-27T18:13:49 BDT" duration-ms="7307" status="PASS">
+        <test-method signature="navigation()[pri:0, instance:com.mytest.NavigateTest@3febb011]" started-at="2025-08-27T20:09:29 BDT" name="navigation" finished-at="2025-08-27T20:09:50 BDT" duration-ms="20874" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorFinding -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.mytest.WebElementFinding@223d2c72]" started-at="2025-08-27T18:13:49 BDT" name="closeDriver" finished-at="2025-08-27T18:13:49 BDT" duration-ms="178" status="PASS">
+        </test-method> <!-- navigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytest.NavigateTest@3febb011]" started-at="2025-08-27T20:09:50 BDT" name="tearDown" finished-at="2025-08-27T20:09:50 BDT" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- com.mytest.WebElementFinding -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytest.NavigateTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mytest.WebElementFinding">
+      <class name="com.mytest.WebElementCommand">
         <methods>
-          <include name="locatorFinding"/>
-          <include name="setUp"/>
+          <include name="webelementcommand"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.mytest.WebElementFinding -->
+      </class> <!-- com.mytest.WebElementCommand -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
