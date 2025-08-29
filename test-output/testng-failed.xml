@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mytest.SelectOptionTest">
+      <class name="com.mytest.CopyPaste">
         <methods>
           <include name="setupDriver"/>
+          <include name="copPaste"/>
           <include name="tearDown"/>
-          <include name="selectOptionTest"/>
         </methods>
-      </class> <!-- com.mytest.SelectOptionTest -->
+      </class> <!-- com.mytest.CopyPaste -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
