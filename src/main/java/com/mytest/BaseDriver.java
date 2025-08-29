@@ -12,11 +12,11 @@ public class BaseDriver {
     protected static WebDriver driver;
 
     @BeforeSuite
-    public void setUp() {
-        initDriver();
-    }
-
-    public static void initDriver() {
+    public static void setupDriver() {
+    	
+    	// Disable notifications & popups
+//    	options.addArguments("--disable-popup-blocking");
+//    	options.addArguments("--disable-notifications");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
     }

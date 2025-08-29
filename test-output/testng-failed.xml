@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mytest.WebElementCommand">
+      <class name="com.mytest.SelectOptionTest">
         <methods>
-          <include name="webelementcommand"/>
-          <include name="setup"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="selectOptionTest"/>
         </methods>
-      </class> <!-- com.mytest.WebElementCommand -->
+      </class> <!-- com.mytest.SelectOptionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T20:09:29 BDT" name="Default suite" finished-at="2025-08-27T20:09:50 BDT" duration-ms="20954">
+  <suite started-at="2025-08-29T23:19:34 BDT" name="Default suite" finished-at="2025-08-29T23:19:52 BDT" duration-ms="18405">
     <groups>
     </groups>
-    <test started-at="2025-08-27T20:09:29 BDT" name="Default test" finished-at="2025-08-27T20:09:50 BDT" duration-ms="20954">
-      <class name="com.mytest.NavigateTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mytest.NavigateTest@3febb011]" started-at="2025-08-27T20:09:26 BDT" name="setUp" finished-at="2025-08-27T20:09:29 BDT" duration-ms="3160" status="PASS">
+    <test started-at="2025-08-29T23:19:34 BDT" name="Default test" finished-at="2025-08-29T23:19:52 BDT" duration-ms="18405">
+      <class name="com.mytest.SelectOptionTest">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:com.mytest.SelectOptionTest@74fe5c40]" started-at="2025-08-29T23:19:31 BDT" name="setupDriver" finished-at="2025-08-29T23:19:34 BDT" duration-ms="3070" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="navigation()[pri:0, instance:com.mytest.NavigateTest@3febb011]" started-at="2025-08-27T20:09:29 BDT" name="navigation" finished-at="2025-08-27T20:09:50 BDT" duration-ms="20874" status="PASS">
+        </test-method> <!-- setupDriver -->
+        <test-method signature="selectOptionTest()[pri:0, instance:com.mytest.SelectOptionTest@74fe5c40]" started-at="2025-08-29T23:19:34 BDT" name="selectOptionTest" finished-at="2025-08-29T23:19:52 BDT" duration-ms="18328" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytest.NavigateTest@3febb011]" started-at="2025-08-27T20:09:50 BDT" name="tearDown" finished-at="2025-08-27T20:09:50 BDT" duration-ms="255" status="PASS">
+        </test-method> <!-- selectOptionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mytest.SelectOptionTest@74fe5c40]" started-at="2025-08-29T23:19:52 BDT" name="tearDown" finished-at="2025-08-29T23:19:52 BDT" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mytest.NavigateTest -->
+      </class> <!-- com.mytest.SelectOptionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
